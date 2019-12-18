@@ -30,15 +30,14 @@ void insert()
         {
             curPtr = ptr;
             ptr = ptr->link;
-            
-            if(ptr == NULL)
-            {
-                curPtr->link = temp;
-            }
-            else {
-                temp->link = curPtr->link;
-                curPtr->link = temp;
-            }
+        }
+        if(ptr == NULL)
+        {
+            curPtr->link = temp;
+        }
+        else {
+            temp->link = curPtr->link;
+            curPtr->link = temp;
         }
     }
 }
