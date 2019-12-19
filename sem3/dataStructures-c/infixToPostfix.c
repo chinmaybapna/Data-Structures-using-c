@@ -95,7 +95,3 @@ int precedence(char ch)
     printf("the postfix expression is:\n");
 		printf("%s\n",postfix);
  }
- 
- 
- 
- 
