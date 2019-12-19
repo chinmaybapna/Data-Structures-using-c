@@ -30,7 +30,7 @@ int precedence(char ch)
         case '/': return(3); break;
         case '+': 
         case '-': return(2); break;
-        default: return(1);break;
+        default: return(1); break;
     }
 }
 
@@ -57,7 +57,7 @@ int precedence(char ch)
         {
             if(ch != '^')
             {
-                while(top != -1 && precedence(s[top]) > precedence(ch))
+                while(top != -1 && precedence(s[top]) >= precedence(ch))
                 {
                     postfix[j] = pop();
                     j++;
@@ -91,7 +91,6 @@ int precedence(char ch)
          j++;
      }
      postfix[j] = '\0';
-     
-    printf("the postfix expression is:\n");
-		printf("%s\n",postfix);
+     printf("the postfix expression is:\n");
+     printf("%s\n",postfix);
  }
