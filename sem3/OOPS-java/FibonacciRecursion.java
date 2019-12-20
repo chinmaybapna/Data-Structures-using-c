@@ -14,7 +14,7 @@ class Fibo {
     }
 }
 
-class Main {
+class FibonacciRecursion {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println("enter the size:");
