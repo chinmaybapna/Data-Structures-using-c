@@ -56,7 +56,7 @@ class Matrix {
     }
 }
 
-class Main {
+class MatrixMultiplication {
     public static void main (String[] args) {
         Scanner sc = new Scanner(System.in);
         
