@@ -39,7 +39,7 @@ class Complex {
     }
 }
 
-class ComplexNumberOperations {
+class Q4_Complex {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    
