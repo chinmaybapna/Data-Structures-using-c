@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class Matrix {
+class MatrixMultiplication {
     int rows, cols, matrix[][];
     Matrix(int r, int c) {
         rows = r;
