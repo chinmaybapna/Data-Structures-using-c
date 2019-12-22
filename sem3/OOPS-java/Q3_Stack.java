@@ -53,7 +53,7 @@ class Stack {
     }
 }
 
-class MainStack {
+class Q3_Stack {
 	public static void main(String[] args) {
 	    Scanner sc = new Scanner(System.in);
 	    System.out.println("enter size of stack");
