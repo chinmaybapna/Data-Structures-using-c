@@ -44,6 +44,7 @@ public class Q6_Strings {
 		                System.out.print("enter the string that replaces it: ");
 		                String b = sc.next();
 		                System.out.print("the modified string is: " + str.replaceFirst(a,b));
+				break;
 		                
 		        case 4: String[] splits = str.split(" ");
 		                Arrays.sort(splits);
