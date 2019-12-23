@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-class MatrixMultiplication {
+class Matrix {
     int rows, cols, matrix[][];
     Matrix(int r, int c) {
         rows = r;
@@ -23,10 +23,10 @@ class MatrixMultiplication {
     
     static void multiply(Matrix m1, Matrix m2)
     {
-        int proRow = m1.matrix.length;
-        int proCol = m2.matrix[0].length;
+        int proRow = m1.rows;
+        int proCol = m2.cols;
         Matrix proMatrix = new Matrix(proRow, proCol);
-        if(m1.matrix[0].length != m2.matrix.length)
+        if(m1.cols != m2.rows)
         {
             System.out.println("operation can't be performed");
         }
