@@ -26,7 +26,7 @@ class MatrixMultiplication {
         int proRow = m1.matrix.length;
         int proCol = m2.matrix[0].length;
         Matrix proMatrix = new Matrix(proRow, proCol);
-        if(proRow != proCol)
+        if(m1.matrix[0].length != m2.matrix.length)
         {
             System.out.println("operation can't be performed");
         }
